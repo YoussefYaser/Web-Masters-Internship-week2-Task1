@@ -155,6 +155,18 @@
     footer .subscribe button {
         font-size: 0.9rem;
     }
+    
+    footer .subscribe span{
+        pointer-events: none;
+    }
+
+    footer .subscribe input{
+        box-shadow: none !important;
+    }
+
+    footer .subscribe input:focus ~  span{
+        opacity: 0;
+    }
 
     footer img {
         width: 80px;
